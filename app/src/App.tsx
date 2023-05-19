@@ -122,7 +122,7 @@ const config: SearchDriverOptions = {
 export default function App() {
   return (
     <SearchProvider config={config}>
-      <div className="bg-blue text-sm">moooooooo</div>
+      <div className="bg-blue text-sm font-semibold">moooooooo</div>
       <WithSearch
         mapContextToProps={({ wasSearched }) => ({
           wasSearched,
