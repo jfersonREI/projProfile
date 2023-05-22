@@ -1,0 +1,16 @@
+body {
+  @apply m-0 font-sans antialiased;
+}
+
+code {
+  @apply font-code;
+}
+
+.sui-result,
+.sui-paging-info,
+.sui-paging-info,
+.sui-select,
+.sui-facet,
+.sui-search-box {
+  @apply font-sans;
+}
