@@ -99,6 +99,13 @@ module.exports = {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
       serif: ["Merriweather", "serif"],
+      code: [
+        "source-code-pro",
+        "Menlo",
+        "Monaco, Consolas",
+        "Courier New",
+        "monospace",
+      ],
     },
 
     extend: {
