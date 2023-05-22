@@ -97,7 +97,7 @@ module.exports = {
       xs: "0.8125rem", // 13px
     },
     fontFamily: {
-      sans: ["Inter", "sans-serif"],
+      sans: ["Inter", "Arial", "sans-serif"],
       serif: ["Merriweather", "serif"],
       code: [
         "source-code-pro",
