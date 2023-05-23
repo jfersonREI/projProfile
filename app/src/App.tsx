@@ -9,6 +9,7 @@ import {
   PagingInfo,
   ResultsPerPage,
   Paging,
+  Sorting,
   WithSearch,
 } from "@elastic/react-search-ui";
 import {
@@ -150,6 +151,21 @@ export default function App() {
                   sideContent={
                     <div>
                       <ClearFilters />
+
+                      <Sorting
+                        sortOptions={[
+                          {
+                            name: "Relevance",
+                            value: "",
+                            direction: "",
+                          },
+                          {
+                            name: "Title",
+                            value: "title",
+                            direction: "asc",
+                          },
+                        ]}
+                      />
                       <Facet
                         field="states"
                         label="States"
