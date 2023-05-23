@@ -20,6 +20,8 @@ import {
 import "@elastic/react-search-ui-views/lib/styles/styles.css";
 import { SearchDriverOptions } from "@elastic/search-ui";
 
+import ClearFilters from "./components/ClearFilters";
+
 const connector = new AppSearchAPIConnector({
   searchKey: "search-3hxb6v4k4vz95vz12k52o8su",
   engineName: "national-parks-demo",
@@ -147,6 +149,7 @@ export default function App() {
                   }
                   sideContent={
                     <div>
+                      <ClearFilters />
                       <Facet
                         field="states"
                         label="States"
