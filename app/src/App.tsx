@@ -132,7 +132,12 @@ export default function App() {
             <div className="App">
               <ErrorBoundary>
                 <Layout
-                  header={<SearchBox debounceLength={0} />}
+                  header={
+                    <SearchBox
+                      autocompleteSuggestions={true}
+                      debounceLength={0}
+                    />
+                  }
                   sideContent={
                     <div>
                       <Facet
