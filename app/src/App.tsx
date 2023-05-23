@@ -134,7 +134,14 @@ export default function App() {
                 <Layout
                   header={
                     <SearchBox
-                      autocompleteSuggestions={true}
+                      autocompleteResults={{
+                        sectionTitle: "Suggested Results",
+                        titleField: "title",
+                        urlField: "nps_link",
+                      }}
+                      autocompleteSuggestions={{
+                        sectionTitle: "Suggested Queries",
+                      }}
                       debounceLength={0}
                     />
                   }
