@@ -24,10 +24,10 @@ import { SearchDriverOptions } from "@elastic/search-ui";
 import ClearFilters from "./components/ClearFilters";
 
 const connector = new AppSearchAPIConnector({
-  searchKey: "search-3hxb6v4k4vz95vz12k52o8su",
-  engineName: "national-parks-demo",
-  endpointBase:
-    "https://2256f52e96ec47f28a01d8aa69b1e11f.ent-search.us-central1.gcp.cloud.es.io",
+  searchKey: "search-371auk61r2bwqtdzocdgutmg",
+  engineName: "search-ui-examples",
+  hostIdentifier: "host-2376rb",
+  endpointBase: "",
 });
 
 const config: SearchDriverOptions = {
